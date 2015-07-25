@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="archana.manjunath.optionscalculator.OptionsPortfolio">
+    <item android:id="@+id/add_option" android:title="@string/add_option"
+        android:orderInCategory="1" app:showAsAction="never" />
+
+    <item android:id="@+id/add_stock"
+        android:title="@string/add_stock"
+        android:orderInCategory="1"
+        />
+
+    <item android:id="@+id/plot_graph"
+        android:title="Payoff diagram"
+        android:orderInCategory="1"
+        />
+     <item android:id="@+id/profit_diagram"
+         android:title="Profit diagram"
+         android:orderInCategory="1"
+         />
+</menu>

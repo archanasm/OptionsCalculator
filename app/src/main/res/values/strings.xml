@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Options Calculator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="rate">Rate of Interest</string>
+    <string name="hint">% p.a.</string>
+    <string name="time">Time to maturity</string>
+    <string name="strike">Strike Price</string>
+    <string name="dividend">Dividend yield</string>
+    <string name="volatility">Volatility</string>
+    <string name="hint1">$</string>
+    <string name = "hint2">$/option</string>
+    <string name="stock">Stock Price</string>
+    <array name="time">
+        <item name = "year">Year(s)</item>
+        <item name = "month">Month(s)</item>
+        <item name = "day">Day(s)</item>
+    </array>
+    <string name = "year">Year(s)</string>
+    <string name = "put">Put</string>
+    <string name = "call">Call</string>
+    <string name = "calculate">Calculate</string>
+    <string name = "price">Option Price</string>
+    <string name="title_activity_options_portfolio">Options Portfolio</string>
+    <string name="add_option">Add Option</string>
+    <string name="add_stock">Add Stock</string>
+    <string-array name="option_types">
+        <item name = "pc">Purchased Call</item>
+        <item name = "wc">Written Call</item>
+        <item name = "pp">Purchased Put</item>
+        <item name = "wp">Written Put</item>
+    </string-array>
+    <string name="number">Number of Options</string>
+    <string name="shares">Number of Shares</string>
+    <string name="stock_price">Price per share</string>
+    <string name="list1">Stock Position</string>
+    <string name="list2">List of Options</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="plot_payoff">Plot Payoff</string>
+    <string name="plot_profit">Plot Profit</string>
+    <string name="title_activity_plot">Graph</string>
+     <string name="selection1">Value Option</string>
+    <string name="selection2">Plot portfolio</string>
+    <string name="title_activity_selection">Selection</string>
+
+</resources>

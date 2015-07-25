@@ -1,0 +1,178 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+ <TableLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+     <TableRow>
+         <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:id="@+id/v"
+             android:text="@string/volatility"
+             android:textStyle="bold"
+             />
+         <EditText
+             android:id="@+id/volatility"
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:hint="@string/hint"
+             android:ems="10"
+             android:layout_weight="1"
+             android:gravity="center_horizontal"
+             android:inputType="numberDecimal"
+            />
+
+     </TableRow>
+     <TableRow>
+         <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:id="@+id/r"
+             android:text="@string/rate"
+             android:textStyle="bold"
+             />
+         <EditText
+             android:id="@+id/rate"
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:hint="@string/hint"
+             android:ems="10"
+             android:layout_weight="1"
+             android:gravity="center_horizontal"
+             android:inputType="numberDecimal"
+             />
+     </TableRow>
+     <TableRow>
+         <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:id="@+id/div"
+             android:text="@string/dividend"
+             android:textStyle="bold"
+             />
+
+         <EditText
+             android:id="@+id/dividend"
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:hint="@string/hint"
+             android:ems="10"
+             android:layout_weight="1"
+             android:gravity="center_horizontal"
+             android:inputType="numberDecimal"
+             />
+
+     </TableRow>
+
+
+     <TableRow>
+         <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:id="@+id/K"
+             android:text="@string/strike"
+             android:textStyle="bold"
+             />
+         <EditText
+             android:id="@+id/strike"
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:hint="@string/hint1"
+             android:ems="10"
+             android:layout_weight="1"
+             android:gravity="center_horizontal"
+             android:inputType="numberDecimal"
+             />
+     </TableRow>
+
+     <TableRow>
+         <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:id="@+id/S"
+             android:text="@string/stock"
+             android:textStyle="bold"
+             />
+         <EditText
+             android:id="@+id/stock"
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:hint="@string/hint1"
+             android:ems="10"
+             android:inputType="numberDecimal"
+             android:layout_weight="1"
+             android:gravity="center_horizontal"
+             />
+     </TableRow>
+     <TableRow>
+         <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:id="@+id/t"
+             android:text="@string/time"
+             android:textStyle="bold"
+             />
+         <EditText
+             android:id="@+id/time"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:ems="10"
+             android:layout_weight="1"
+             android:gravity="center_horizontal"
+             android:inputType="numberDecimal"
+             />
+
+         <Spinner
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/spinner"
+             android:layout_column="3"
+             android:entries="@array/time"
+             android:layout_weight="5"
+             android:prompt="@string/year"/>
+     </TableRow>
+
+     </TableLayout>
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/rg">
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/put"
+                android:layout_weight="1"
+                />
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/call"
+                android:layout_weight="1"
+                />
+            </RadioGroup>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id ="@+id/result"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="#ffffff"
+        android:hint = "@string/price"
+        android:textSize="50sp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"
+        android:onClick="Calculate"/>
+
+</LinearLayout>

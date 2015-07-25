@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/archana/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/archana/AndroidStudioProjects/OptionsCalculator/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-508581a51791613b6ddfd03617ca9739181fc923.jar" />
+    </item>
+    <item
+        jar="/Users/archana/AndroidStudioProjects/OptionsCalculator/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/archana/AndroidStudioProjects/OptionsCalculator/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-053d326eeb1820ee889dbe051b0e19db310a3841.jar" />
+    </item>
+    <item
+        jar="/Users/archana/AndroidStudioProjects/OptionsCalculator/app/libs/commons-math3-3.4.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3ac44a8664228384bc68437264cf7c4cf112f579">
+        <dex dex="/Users/archana/AndroidStudioProjects/OptionsCalculator/app/build/intermediates/pre-dexed/debug/commons-math3-3.4.1-d4af007342f67b3cbb1f8eb7df10adaaf8ef96ed.jar" />
+    </item>
+    <item
+        jar="/Users/archana/AndroidStudioProjects/OptionsCalculator/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/archana/AndroidStudioProjects/OptionsCalculator/app/build/intermediates/pre-dexed/debug/classes-5101c9d8b7d6711721b0d976d518483c7a623672.jar" />
+    </item>
+    <item
+        jar="/Users/archana/AndroidStudioProjects/OptionsCalculator/app/libs/androidplot-core-0.6.1-sources.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b077fe6f32342cda2815129f29f509109ec7260c">
+        <dex dex="/Users/archana/AndroidStudioProjects/OptionsCalculator/app/build/intermediates/pre-dexed/debug/androidplot-core-0.6.1-sources-be6efa91990dd93a313779a65bc0777cf94934f7.jar" />
+    </item>
+    <item
+        jar="/Users/archana/AndroidStudioProjects/OptionsCalculator/app/libs/androidplot-core-0.6.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3db0daea52375b26bfa61c59b8df93950bdefbbc">
+        <dex dex="/Users/archana/AndroidStudioProjects/OptionsCalculator/app/build/intermediates/pre-dexed/debug/androidplot-core-0.6.1-4ba4a241a945cc824b84dc785d6dbd0e00dbde02.jar" />
+    </item>
+    <item
+        jar="/Users/archana/AndroidStudioProjects/OptionsCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/archana/AndroidStudioProjects/OptionsCalculator/app/build/intermediates/pre-dexed/debug/classes-ec997702712b7ed95a9fd524373105c03a4b0ef7.jar" />
+    </item>
+
+</items>
